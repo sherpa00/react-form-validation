@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+#root {
+  width: 60%;
+  margin: auto;
+  
+}
+
+#root .container {
+  width: auto;
+  background: gray;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: ;
+  justify-content: space-around;
+  margin: 50px auto;
+  border-radius: 5px;
+}
+
+.container .right_bg {
+  width: 50%;
+}
+
+.container .form-cont {
+  width: 50%;
+  text-align: center;
+}
+
+.container .thanks {
+  width: 50%;
+}
+
+.form-cont h1 {
+  margin: 0px;
+}
+
+.form-cont form {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+  flex-direction: column;
+  width: 100%;
+}
+
+.form-cont div {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.form-cont div label {
+  font-size: 20px;
+  color: blanchedalmond;
+  margin-bottom: 4px;
+  text-align: left;
+}
+
+.form-cont input {
+  width: 80%;
+  font-size: 20px;
+  text-indent: 3px;
+  border-radius: 5px;
+  padding: 5px;
+  border: 5px solid black;
+}
+
+.form-cont p {
+  font-size: 16px;
+  margin: 0px 0px;
+  color: red;
+}
+
+.form-cont button {
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+  width: 82%;
+  background-color: lightgreen;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.form-cont button:hover {
+  background-color: green;
+}
+
+
+
+
+.right_bg img {
+  width: 90%;
+}
+
+
